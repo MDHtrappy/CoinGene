@@ -14,21 +14,21 @@
 # CHAIN variable below
 
 # change the following variables to match your new coin
-COIN_NAME="NewCoin"
-COIN_UNIT="NCC"
+COIN_NAME="RizzCoin"
+COIN_UNIT="RIZZ"
 # 168 million coins at total (litecoin total supply is 84000000) 84000000 * 2
-TOTAL_SUPPLY=168000000
+TOTAL_SUPPLY=420696969
 MAINNET_PORT="9332"
 TESTNET_PORT="9333"
-PHRASE="This is New Coin based on Litecoin"
+PHRASE="French territory in turmoil after constitutional reform vote, state of emergency imposed"
 # First letter of the wallet address. Check https://en.bitcoin.it/wiki/Base58Check_encoding
 PUBKEY_CHAR="20"
 # number of blocks to wait to be able to spend coinbase UTXO's
 COINBASE_MATURITY=100
 # leave CHAIN empty for main network, -regtest for regression network and -testnet for test network
-CHAIN="-regtest"
+CHAIN=""
 # this is the amount of coins to get as a reward of mining the block of height 1. if not set this will default to 50
-PREMINED_AMOUNT=100000
+PREMINED_AMOUNT=1
 
 # warning: change this to your own pubkey to get the genesis block mining reward
 GENESIS_REWARD_PUBKEY=0453CFDD3313102996DE46D0E82C52946B120463DE1F6A1FF4BCFCF2B9A2BB75C5B0B7B84E892A1973BF3A3E19D5A4C4A3FDA4766CB75B6B8837F3BB23D63AAC96
